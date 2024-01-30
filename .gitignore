@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+afm-benchmark-dataset
+data/*
+!data/scores_final.csv
+gnn_data
+
+read_pickle.py
+RUN_read_pickle.sh
+
+
+
+# symlinks
+src/gnn/confidence_tools.py
+src/gnn/datasets/confidence_tools.py
